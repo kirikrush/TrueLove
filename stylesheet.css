@@ -1,0 +1,53 @@
+body {
+	background-color: #8B008B;
+	background-image: url(ico.png);
+	background-repeat:space;
+}
+
+header{
+	width:100%;
+	height:320px;
+	background-image: url("back.jpg");
+	background-repeat: round;
+	text-align: center;
+}
+
+header h1 {
+	color:white;
+	font-family: cursive,pompadour;
+}
+
+#avatar {
+	border:3px solid white;
+	border-radius:60px;
+}
+
+.nav {
+	position: absolute;
+	width:100%;
+	height:70px;
+	top:280px;
+	text-align: center;
+}
+.nav ul{
+	padding:0;
+}
+.nav ul li{
+	display: inline-block;
+	padding:5px;
+	border:2px solid white;
+	color:white;
+}
+
+.content {
+	background-color:#F5DEB3;
+	width:600px;
+	margin: auto;
+	border:4px solid white;
+	border-radius:10px;
+	margin-top:40px;
+}
+
+.content p, .content ol li {
+	padding:10px;
+}
