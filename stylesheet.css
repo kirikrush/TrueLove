@@ -2,19 +2,22 @@ body {
 	background-color: #8B008B;
 	background-image: url(ico.png);
 	background-repeat:space;
+	padding:0;
+	margin:0;
 }
 
 header{
+	margin-top:-20px;
 	width:100%;
 	height:320px;
 	background-image: url("back.jpg");
-	background-repeat: round;
 	text-align: center;
+	background-size: COVER;
 }
 
 header h1 {
 	color:white;
-	font-family: cursive,pompadour;
+	font-family:'Comic sans MS';
 }
 
 #avatar {
@@ -26,8 +29,25 @@ header h1 {
 	position: absolute;
 	width:100%;
 	height:70px;
-	top:280px;
+	top:260px;
 	text-align: center;
+}
+
+.nav a{
+	color:white;
+	text-decoration: none;
+}
+ a:visited{
+	color:white;
+	text-decoration: none;
+}
+ a:link{
+	color:white;
+	text-decoration: none;
+}
+ a:hover{
+	color:white;
+	text-decoration: underline;
 }
 .nav ul{
 	padding:0;
@@ -37,6 +57,8 @@ header h1 {
 	padding:5px;
 	border:2px solid white;
 	color:white;
+	BACKGROUND-COLOR:BLACK;
+
 }
 
 .content {
@@ -50,4 +72,35 @@ header h1 {
 
 .content p, .content ol li {
 	padding:10px;
+	text-indent: 5px
+}
+
+.nav2 {
+	background-color: #F5DEB3;
+	display:block;
+	border:2px solid white;
+}
+.nav2 ul li {
+	display: block;
+	padding:5px;
+}
+
+.nav2 a{
+	color:black;
+}
+
+#_1 {
+	margin-left: 100px;
+}
+
+#_2 {
+	margin-right: 100px;
+}
+
+#_3 {
+	margin-left: 100px;
+}
+
+#_4 {
+	margin-right: 100px;
 }
